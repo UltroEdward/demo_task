@@ -1,9 +1,9 @@
-package demo.pages.auth;
+package pages.auth;
 
-import demo.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import pages.BasePage;
 
 public class LoginPage extends BasePage {
 
@@ -24,5 +24,4 @@ public class LoginPage extends BasePage {
 
         submitButton.click();
     }
-
 }
